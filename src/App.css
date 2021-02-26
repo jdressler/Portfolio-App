@@ -1,0 +1,9 @@
+body {
+  background-color:black;
+  height:600px;
+}
+
+.row-fix {
+  margin-right:0px;
+  margin-left:0px;
+}
