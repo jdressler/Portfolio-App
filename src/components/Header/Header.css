@@ -4,3 +4,7 @@
 #contact-button-container {
     width:100%;
 }
+
+.vertical-align-initial{
+    vertical-align: initial;
+  }

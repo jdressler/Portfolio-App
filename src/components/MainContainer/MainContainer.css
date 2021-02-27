@@ -1,0 +1,8 @@
+#main-panel-row {
+    height:828px;
+    background-color: white;
+    padding-top:15px;
+    background-image: url('../../images/mountain.jpg');
+    background-size: cover;
+    
+}

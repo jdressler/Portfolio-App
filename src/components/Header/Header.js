@@ -1,17 +1,22 @@
 import React from 'react'
 import {Row, Col, Button} from 'react-bootstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+
 import './Header.css'
 class Header extends React.Component {
     render() {
         return (
-            <Row className='row-fix'>
+            <Row className='row-fix py-2'>
                 <Col md='5'></Col>
-                <Col md='2'>
+                <Col md='2' className="d-flex">
                 <div style = {{display: 'flex', flexDirection: 'column', alignItems: 'center'}} id='contact-button-container'>
-                  <Button  variant='success' href='/contact' id='contact-button-header'>Contact Me</Button>
+                  <Button className='vertical-align-initial' variant='success' href='/contact' id='contact-button-header'>Contact Me</Button>
                 </div>
                 </Col>
-                <Col md='5'></Col>
+                <Col md='5'><FontAwesomeIcon icon={faGithub} />
+
+</Col>
             </Row>
         )
     }
