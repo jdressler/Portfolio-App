@@ -1,7 +1,5 @@
 import React from 'react'
 import {Row, Col, Button} from 'react-bootstrap'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 import './Header.css'
 class Header extends React.Component {
@@ -14,9 +12,7 @@ class Header extends React.Component {
                   <Button className='vertical-align-initial' variant='success' href='/contact' id='contact-button-header'>Contact Me</Button>
                 </div>
                 </Col>
-                <Col md='5'><FontAwesomeIcon icon={faGithub} />
-
-</Col>
+                <Col md='5'></Col>
             </Row>
         )
     }
