@@ -1,39 +1,12 @@
-#header-row {
-    height:55px;
-    background-color: rgb(82, 77, 77);
-    border: 2px solid red;
-  }
+.footer{
+  height:55px;
+  background-color: rgb(82, 77, 77);
+}
 
-  #header-information-row {
-      height:100%;
-  }
-
+#footer-flag-icon {
+    height:100%;
+}
 #canada-flag, #header-flag-icon {
     height:100%;
 }
 
-#header-information-name, #header-information-number, #header-information-location , #header-information-email{
-    font-family: 'Lora', serif;
-    color:white;
-    
-}
-
-#name, #number, #location, #email {
-    text-align: center;
-    font-size: 16px;
-
-}
-
-#header-information-row {
-    padding-top:15px;
-}
-
-#linked-in-icon {
-    font-size: 45px;
-    height:100%;
-
-}
-
-#header-information {
-    height: 100%;
-}

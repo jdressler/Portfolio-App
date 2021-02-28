@@ -1,10 +1,21 @@
-#contact-header-button {
+.header-container {
+    background-color: rgb(82, 77, 77);
+    max-height:56px;
+}
+
+.header-container [class*="col-"] {
+    height:56px;
 }
 
 #contact-button-container {
     width:100%;
 }
 
+.git-container {
+    height:100%;
+}
+
 .vertical-align-initial{
     vertical-align: initial;
   }
+

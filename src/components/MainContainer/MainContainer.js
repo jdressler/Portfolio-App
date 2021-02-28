@@ -1,31 +1,29 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {Row, Col} from 'react-bootstrap'
-
+import MainPanel from '../MainPanel/MainPanel'
 import './MainContainer.css';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 class MainContainer extends React.Component {
-  render() {
-      return (
-          <Row id='main-panel-row' className='row-fix'>
-              <Col md='6'>
-                  <Row>
-                      <Col md='12'>
-                      </Col>
-                  </Row>
-                  <Row>
-                      <Col md='12'></Col>
-                  </Row>
-              </Col>
-              <Col md='6'>
-                  <Row>
-                      <Col md='12'>
-                      </Col>    
-                  </Row>   
-              </Col>
-              
-              
-          </Row>
+
+    render() {
+        return (
+        <Row className='row-fix main-container-row'>
+            <Col md='12'>
+            <Router>
+                <Switch>
+                    <Route exact path='/' component={MainPanel}/>
+                </Switch>
+            </Router>
+            </Col>
+        </Row>
+    
 
 
       )

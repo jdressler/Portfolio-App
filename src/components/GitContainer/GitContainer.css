@@ -1,0 +1,9 @@
+#git-icon {
+    font-size:48px;
+    color:#6e5494;
+}
+
+
+.git-container:hover {
+    cursor:pointer;
+}

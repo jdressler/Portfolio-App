@@ -1,0 +1,24 @@
+#my-information-name, #my-information-number, #my-information-location , #my-information-email{
+    font-family: 'Lora', serif;
+    color:white;
+    
+}
+
+#name, #number, #location, #email {
+    text-align: center;
+    font-size: 16px;
+
+}
+
+#my-information-row {
+    padding-top:15px;
+    height:100%;
+
+}
+
+#my-information {
+    height: 100%;
+}
+
+  
+
