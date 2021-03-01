@@ -1,0 +1,34 @@
+#resume {
+    font-family: 'Lora', serif;
+    color:white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.my-resume-row {
+    height:100%;
+    
+}
+
+#resume-label-container {
+    
+    text-align: center;
+
+}
+
+#resume-hand-icon, #download-resume {
+    font-size:32px
+}
+
+#resume-hand-icon {
+    color:yellow;
+}
+
+#download-resume {
+    color:rgb(16, 105, 16);
+}
+
+#download-resume:hover {
+    cursor:pointer;
+    color:green;
+}
