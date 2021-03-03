@@ -1,5 +1,4 @@
 import React from 'react'
-import {Row, Col} from 'react-bootstrap'
 import {faGithubSquare} from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './GitContainer.css'

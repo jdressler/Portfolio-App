@@ -1,13 +1,11 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import {Row, Col} from 'react-bootstrap'
 import MainPanel from '../MainPanel/MainPanel'
 import './MainContainer.css';
 import {
     BrowserRouter as Router,
     Switch,
-    Route,
-    Link
+    Route
   } from "react-router-dom";
 
 class MainContainer extends React.Component {

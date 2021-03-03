@@ -4,25 +4,15 @@ import {Row, Col} from 'react-bootstrap'
 class MainPanel extends React.Component {
     render(){
         return(
-            <Row id='main-panel-row' className='row-fix'>
-            <Col md='6'>
-                <Row>
-                    <Col md='12'>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col md='12'></Col>
-                </Row>
-            </Col>
-            <Col md='6'>
-                <Row>
-                    <Col md='12'>
-                    </Col>    
-                </Row>   
-            </Col>
-            
-            
-        </Row>
+            <Row>
+                <Col md='1'></Col>
+                <Col md='3'>sdf</Col>
+                <Col md='1'></Col>
+                <Col md='2'></Col>
+                <Col md='1'></Col>
+                <Col md='3'></Col>
+                <Col md='1'></Col>
+            </Row>
         )
     }
 }
